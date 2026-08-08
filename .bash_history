@@ -12,3 +12,6 @@ git add . && git commit -m "Update full 30 tokens, deposit methods and quick tra
 git add .
 git commit -m "Dua ung dung len web"
 git push origin main
+git add .
+git commit -m "Update new giao dien GoldCrypto"
+git push -u origin main --force
