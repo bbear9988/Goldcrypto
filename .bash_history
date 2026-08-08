@@ -9,3 +9,6 @@ git add . && git commit -m "Add Admin control for win loss trading" && git push
 git add . && git commit -m "Update full 30 tokens, deposit methods and quick trade panel" && git push
 {   "name": "goldcrypto-trading",;   "version": "1.0.0",;   "main": "server.js",;   "scripts": {;     "start": "node server.js";   },;   "dependencies": {;     "express": "^4.18.2";   }
 }
+git add .
+git commit -m "Dua ung dung len web"
+git push origin main
