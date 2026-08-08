@@ -6,3 +6,6 @@ git commit -m "Fix Trade Win Loss Admin Control without secrets"
 git push -f origin main
 git add . && git commit -m "Update profit rates to 15%-30% for quick trade" && git push
 git add . && git commit -m "Add Admin control for win loss trading" && git push
+git add . && git commit -m "Update full 30 tokens, deposit methods and quick trade panel" && git push
+{   "name": "goldcrypto-trading",;   "version": "1.0.0",;   "main": "server.js",;   "scripts": {;     "start": "node server.js";   },;   "dependencies": {;     "express": "^4.18.2";   }
+}
