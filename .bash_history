@@ -21,3 +21,6 @@ git push origin main
 git status
 cd <goldcrypto>
 ls
+git add .
+git commit -m "Update GoldCrypto interface"
+git push origin main
