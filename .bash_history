@@ -5,3 +5,4 @@ git add .
 git commit -m "Fix Trade Win Loss Admin Control without secrets"
 git push -f origin main
 git add . && git commit -m "Update profit rates to 15%-30% for quick trade" && git push
+git add . && git commit -m "Add Admin control for win loss trading" && git push
