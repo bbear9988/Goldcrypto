@@ -1,0 +1,158 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install jsonwebtoken bcryptjs
+7 verbose argv "install" "jsonwebtoken" "bcryptjs"
+8 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-08-07T15_27_01_010Z-
+9 verbose logfile /home/.npm/_logs/2026-08-07T15_27_01_010Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly idealTree buildDeps
+13 silly fetch manifest bcryptjs@^2.4.3
+14 silly packumentCache full:https://registry.npmjs.org/bcryptjs cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/bcryptjs 569ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/bcryptjs set size:80385 disposed:false
+17 silly fetch manifest jsonwebtoken@^9.0.2
+18 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 82ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken set size:183413 disposed:false
+21 silly placeDep ROOT bcryptjs@2.4.3 REPLACE for: financial-admin-system@1.0.0 want: ^2.4.3
+22 silly placeDep ROOT jsonwebtoken@9.0.3 REPLACE for: financial-admin-system@1.0.0 want: ^9.0.2
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@redis/bloom': [ '1.2.0' ],
+24 silly audit   '@redis/client': [ '1.6.1' ],
+24 silly audit   '@redis/graph': [ '1.1.1' ],
+24 silly audit   '@redis/json': [ '1.0.7' ],
+24 silly audit   '@redis/search': [ '1.2.0' ],
+24 silly audit   '@redis/time-series': [ '1.1.0' ],
+24 silly audit   accepts: [ '1.3.8' ],
+24 silly audit   'array-flatten': [ '1.1.1' ],
+24 silly audit   'body-parser': [ '1.20.6' ],
+24 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+24 silly audit   bytes: [ '3.1.2' ],
+24 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+24 silly audit   'call-bound': [ '1.0.4' ],
+24 silly audit   'cluster-key-slot': [ '1.1.2' ],
+24 silly audit   colorette: [ '2.0.19' ],
+24 silly audit   commander: [ '10.0.1' ],
+24 silly audit   'content-disposition': [ '0.5.4' ],
+24 silly audit   'content-type': [ '1.0.5' ],
+24 silly audit   cookie: [ '0.7.2' ],
+24 silly audit   'cookie-signature': [ '1.0.7' ],
+24 silly audit   debug: [ '2.6.9', '4.3.4' ],
+24 silly audit   depd: [ '2.0.0' ],
+24 silly audit   destroy: [ '1.2.0' ],
+24 silly audit   'dunder-proto': [ '1.0.1' ],
+24 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+24 silly audit   'ee-first': [ '1.1.1' ],
+24 silly audit   encodeurl: [ '2.0.0' ],
+24 silly audit   'es-define-property': [ '1.0.1' ],
+24 silly audit   'es-errors': [ '1.3.0' ],
+24 silly audit   'es-object-atoms': [ '1.1.2' ],
+24 silly audit   escalade: [ '3.2.0' ],
+24 silly audit   'escape-html': [ '1.0.3' ],
+24 silly audit   esm: [ '3.2.25' ],
+24 silly audit   etag: [ '1.8.1' ],
+24 silly audit   express: [ '4.22.2' ],
+24 silly audit   finalhandler: [ '1.3.2' ],
+24 silly audit   forwarded: [ '0.2.0' ],
+24 silly audit   fresh: [ '0.5.2' ],
+24 silly audit   'function-bind': [ '1.1.2' ],
+24 silly audit   'generic-pool': [ '3.9.0' ],
+24 silly audit   'get-intrinsic': [ '1.3.0' ],
+24 silly audit   'get-package-type': [ '0.1.0' ],
+24 silly audit   'get-proto': [ '1.0.1' ],
+24 silly audit   getopts: [ '2.3.0' ],
+24 silly audit   gopd: [ '1.2.0' ],
+24 silly audit   'has-symbols': [ '1.1.0' ],
+24 silly audit   hasown: [ '2.0.4' ],
+24 silly audit   'http-errors': [ '2.0.1' ],
+24 silly audit   'iconv-lite': [ '0.4.24' ],
+24 silly audit   inherits: [ '2.0.4' ],
+24 silly audit   interpret: [ '2.2.0' ],
+24 silly audit   'ipaddr.js': [ '1.9.1' ],
+24 silly audit   'is-core-module': [ '2.16.2' ],
+24 silly audit   ms: [ '2.1.2', '2.0.0', '2.1.3' ],
+24 silly audit   jwa: [ '2.0.1' ],
+24 silly audit   jws: [ '4.0.1' ],
+24 silly audit   knex: [ '3.3.0' ],
+24 silly audit   lodash: [ '4.18.1' ],
+24 silly audit   'lodash.includes': [ '4.3.0' ],
+24 silly audit   'lodash.isboolean': [ '3.0.3' ],
+24 silly audit   'lodash.isinteger': [ '4.0.4' ],
+24 silly audit   'lodash.isnumber': [ '3.0.3' ],
+24 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+24 silly audit   'lodash.isstring': [ '4.0.1' ],
+24 silly audit   'lodash.once': [ '4.1.1' ],
+24 silly audit   'math-intrinsics': [ '1.1.0' ],
+24 silly audit   'media-typer': [ '0.3.0' ],
+24 silly audit   'merge-descriptors': [ '1.0.3' ],
+24 silly audit   methods: [ '1.1.2' ],
+24 silly audit   mime: [ '1.6.0' ],
+24 silly audit   'mime-db': [ '1.52.0' ],
+24 silly audit   'mime-types': [ '2.1.35' ],
+24 silly audit   negotiator: [ '0.6.3' ],
+24 silly audit   'node-abort-controller': [ '3.1.1' ],
+24 silly audit   'object-inspect': [ '1.13.4' ],
+24 silly audit   'on-finished': [ '2.4.1' ],
+24 silly audit   parseurl: [ '1.3.3' ],
+24 silly audit   'path-parse': [ '1.0.7' ],
+24 silly audit   'path-to-regexp': [ '0.1.13' ],
+24 silly audit   pg: [ '8.22.0' ],
+24 silly audit   'pg-cloudflare': [ '1.4.0' ],
+24 silly audit   'pg-connection-string': [ '2.6.2', '2.14.0' ],
+24 silly audit   'pg-int8': [ '1.0.1' ],
+24 silly audit   'pg-pool': [ '3.14.0' ],
+24 silly audit   'pg-protocol': [ '1.15.0' ],
+24 silly audit   'pg-types': [ '2.2.0' ],
+24 silly audit   pgpass: [ '1.0.5' ],
+24 silly audit   'postgres-array': [ '2.0.0' ],
+24 silly audit   'postgres-bytea': [ '1.0.1' ],
+24 silly audit   'postgres-date': [ '1.0.7' ],
+24 silly audit   'postgres-interval': [ '1.2.0' ],
+24 silly audit   'proxy-addr': [ '2.0.7' ],
+24 silly audit   qs: [ '6.15.3' ],
+24 silly audit   'range-parser': [ '1.2.1' ],
+24 silly audit   'raw-body': [ '2.5.3' ],
+24 silly audit   rechoir: [ '0.8.0' ],
+24 silly audit   redis: [ '4.7.1' ],
+24 silly audit   redlock: [ '5.0.0-beta.2' ],
+24 silly audit   resolve: [ '1.22.12' ],
+24 silly audit   'resolve-from': [ '5.0.0' ],
+24 silly audit   'safe-buffer': [ '5.2.1' ],
+24 silly audit   'safer-buffer': [ '2.1.2' ],
+24 silly audit   semver: [ '7.8.5' ],
+24 silly audit   send: [ '0.19.2' ],
+24 silly audit   'serve-static': [ '1.16.3' ],
+24 silly audit   setprototypeof: [ '1.2.0' ],
+24 silly audit   'side-channel': [ '1.1.1' ],
+24 silly audit   'side-channel-list': [ '1.0.1' ],
+24 silly audit   'side-channel-map': [ '1.0.1' ],
+24 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+24 silly audit   split2: [ '4.2.0' ],
+24 silly audit   statuses: [ '2.0.2' ],
+24 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+24 silly audit   tarn: [ '3.1.2' ],
+24 silly audit   tildify: [ '2.0.0' ],
+24 silly audit   toidentifier: [ '1.0.1' ],
+24 silly audit   'type-is': [ '1.6.18' ],
+24 silly audit   unpipe: [ '1.0.0' ],
+24 silly audit   'utils-merge': [ '1.0.1' ],
+24 silly audit   vary: [ '1.1.2' ],
+24 silly audit   xtend: [ '4.0.2' ],
+24 silly audit   yallist: [ '4.0.0' ],
+24 silly audit   bcryptjs: [ '2.4.3' ],
+24 silly audit   jsonwebtoken: [ '9.0.3' ]
+24 silly audit }
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 263ms
+26 silly audit report {}
+27 verbose cwd /home
+28 verbose os Linux 4.14.180-perf-g98d7380da210
+29 verbose node v22.23.2
+30 verbose npm  v10.9.1
+31 verbose exit 0
+32 info ok
