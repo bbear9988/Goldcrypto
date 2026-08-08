@@ -15,3 +15,9 @@ git push origin main
 git add .
 git commit -m "Update new giao dien GoldCrypto"
 git push -u origin main --force
+git add .
+git commit -m "Fix router server.js point to GoldCrypto HTML"
+git push origin main
+git status
+cd <goldcrypto>
+ls
